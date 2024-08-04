@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main() {
+float P = 1, R = 10, T = 5;
+float SI = (P * R * T)/ 100;
+cout << "Simple Interest =" << SI;
+
+}
