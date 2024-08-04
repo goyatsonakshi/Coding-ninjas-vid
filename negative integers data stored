@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    char a = 234354;
+    cout << a << endl;
+    unsigned int b = -123;
+    cout << b << endl;
+}
+
+// char a cannot store this large value so it will take only 4 bits and work accordingly
+// for unsigned int b the compiler will first convert -123 to its 2 compliment and as it is unsigned the first bit will be 1 so the number will become very huge
