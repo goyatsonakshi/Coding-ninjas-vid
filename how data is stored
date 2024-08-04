@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    char c;
+    a = 100;
+    c = a;
+    cout << c << endl;
+}
+
+// here we have a c as a and so c is a character
+// then the ascii value of 100 is d from the ascii table that's why the output comes out to be d
+// and we only have 4 bytes here so we add big number like 19920 in the value of a then it will only take the last digit as the input and will provide answer as ? only 
