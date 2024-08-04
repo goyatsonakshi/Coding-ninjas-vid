@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+int f;
+cout << "Enter Fah Value" << endl;
+cin >> f;
+int c = (5.0/9) * (f - 32);
+cout << (5.0/9) * (f - 32) << endl;
+//what will be the output for this if i put the input value of f as 100 0
+// actual ans. was 37.7778 but when we placed it in the int value it only provided 37 coz it only takes integer values and leaves the rest
+
+int r = 10 % 3;
+cout << 10 % 3 << endl;
+cout << c << endl;
+// use of modulus is shown
+
+int a;
+int b;
+cout << "Enter a and b" << endl;
+cin >> a >> b;
+
+bool isEqual = ( a == b);
+bool isAGreater = (a > b);
+bool isALess = ( a < b);
+
+cout << "Are they Equal " << isEqual << endl;
+cout << "is A greater " << isAGreater << endl;
+cout << "is A less " << isALess << endl;
+// coz boolean operator always shows values as true or false i.e 0 or 1
+// there are a total of 6 relational operators
+
+bool third = isEqual && isAGreater;
+//this can never be possible as && operator wants both the conditions to be true
+
+bool fourth = isEqual || isAGreater;
+
+cout << "Not Equal " << !isEqual << endl;
+//!equal will change the answer
+
+}
