@@ -6,10 +6,49 @@ int main() {
     cout << "Enter two numbers" << endl;
     cin >> a >> b;
 
-    if( a == b) {
+if (a == b){
+    cout << "both are equal" << endl;
+}
+    else if (a < b){
+        cout << "a is smaller" << endl;
+    }
+        else {
+            cout << "a is greater" << endl;
+        }
+
+    }
+    
+these all commented here below are different solutions and approaches to the same problem
+
+
+
+ /*   if ( a== b) {
+        cout << "Hey these are equal" << endl;
+    }
+        else {
+            if ( a < b) {
+                cout << "a is smaller" << endl;
+            }
+            else {
+                cout << "a is greater" << endl;
+            }
+        }
+}
+    // this else the again if else is caled nested conditionals
+
+
+
+/*  if ( a == b) {
+        cout << "Hey these are equal" << endl;
+    }
+}
+
+
+
+  /* if( a == b) {
         cout << "Hey these are equal" << endl;
     }
         else {
             cout << "These are not equal" << endl;
         }
-    }
+    } */
