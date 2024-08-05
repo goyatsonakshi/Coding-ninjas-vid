@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter the value of n" << endl;
+    cin >> n;
+
+    int i = 2;
+    bool divided = false;
+    while(i<n) {
+        if(n%i == 0) {
+            cout << "Number is not prime" << endl;
+            divided = true;
+        }
+        i = i+1;
+    }
+        if(!divided) {
+            cout << "Number is prime" << endl;
+    }
+}
